@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:dtos\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Migrations\\20240612114252_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240612114252_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:models\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\models\\socialmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:models\\socialmedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\models\\extrainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:models\\extrainfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\dtos\\extrainfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:dtos\\extrainfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\dtos\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:dtos\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\dtos\\client\\createclientrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:dtos\\client\\createclientrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\mappers\\mappingclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:mappers\\mappingclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\ezeekards.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:ezeekards.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\dtos\\socialmediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:dtos\\socialmediadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|c:\\users\\dell\\desktop\\.net\\ezeekards\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240612114252_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Migrations\\20240612114252_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240612114252_Initial.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Migrations\\20240612114252_Initial.cs",
+              "RelativeToolTip": "Migrations\\20240612114252_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:42:52.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Controllers\\ClientController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAuwHUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:50:14.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Models\\Client.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\Client.cs",
+              "RelativeToolTip": "Models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:29:53.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExtraInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\ExtraInfoDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ExtraInfoDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\ExtraInfoDto.cs",
+              "RelativeToolTip": "Dtos\\ExtraInfoDto.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA8wAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:28:52.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClientDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\ClientDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\ClientDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\ClientDto.cs",
+              "RelativeToolTip": "Dtos\\ClientDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:01:43.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompanyDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\CompanyDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\CompanyDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\CompanyDto.cs",
+              "RelativeToolTip": "Dtos\\CompanyDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:22:44.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExtraInfo.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\ExtraInfo.cs",
+              "RelativeDocumentMoniker": "Models\\ExtraInfo.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\ExtraInfo.cs",
+              "RelativeToolTip": "Models\\ExtraInfo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:05:54.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Base.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\Base.cs",
+              "RelativeDocumentMoniker": "Models\\Base.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\Base.cs",
+              "RelativeToolTip": "Models\\Base.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:34:18.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SocialMedia.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\SocialMedia.cs",
+              "RelativeDocumentMoniker": "Models\\SocialMedia.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\SocialMedia.cs",
+              "RelativeToolTip": "Models\\SocialMedia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:34:16.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateClientRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\Client\\CreateClientRequestDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Client\\CreateClientRequestDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\Client\\CreateClientRequestDto.cs",
+              "RelativeToolTip": "Dtos\\Client\\CreateClientRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:39:53.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "Models\\Company.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Models\\Company.cs",
+              "RelativeToolTip": "Models\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:33:41.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MappingClient.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Mappers\\MappingClient.cs",
+              "RelativeDocumentMoniker": "Mappers\\MappingClient.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Mappers\\MappingClient.cs",
+              "RelativeToolTip": "Mappers\\MappingClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T09:35:21.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:43:43.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EzeeKards",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\EzeeKards.csproj",
+              "RelativeDocumentMoniker": "EzeeKards.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\EzeeKards.csproj",
+              "RelativeToolTip": "EzeeKards.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-12T09:48:06.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAiwCoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T07:37:11.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SocialMediaDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\SocialMediaDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\SocialMediaDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\Dtos\\SocialMediaDto.cs",
+              "RelativeToolTip": "Dtos\\SocialMediaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T08:30:09.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\.net\\EzeeKards\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-12T07:45:01.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
