@@ -1,24 +1,50 @@
-using EzeeKards.Data;
-using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using EzeeKards.Mappers;
+using EzeeKards.Data.Database;
+using EzeeKard.Service.Converters;
+using EzeeKard.Service.Implementations;
+using EzeeKard.Service.Interfaces;
+using EzeeKards.Service.Converter;
+using EzeeKards.Service.Implementation;
+using EzeeKards.Service.Implementations;
+using EzeeKards.Service.Interfaces;
+using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
+var configuration = builder.Configuration;
 
-// Add services to the container.
+// Register converters
+builder.Services.AddScoped<ClientConvertion>();
+builder.Services.AddScoped<CompanyConverter>();
+builder.Services.AddScoped<ErrorConverter>();
+builder.Services.AddScoped<ExtraInfoConverter>();
+builder.Services.AddScoped<ClientInformationConverter>();
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Register the database context
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Register services
+builder.Services.AddScoped<IClientService, ClientService>();
+builder.Services.AddScoped<ICompanyService, CompanyService>();
+builder.Services.AddScoped<IErrorService, ErrorService>();
+builder.Services.AddScoped<IClientExtraInfoService, ClientExtraInfoService>();
+builder.Services.AddScoped<ICompanyExtraInfoService, CompanyExtraInfoService>();
+builder.Services.AddScoped<IClientExtraInfoService, ClientExtraInfoService>();
+builder.Services.AddScoped<IClientInformationService, ClientInformationService>();
+
+// Add services to the container
+builder.Services.AddControllers()
+    .AddNewtonsoftJson(options =>
+    {
+        options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
+    });
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -26,14 +52,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
+app.UseStaticFiles();
 app.UseRouting();
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-});
 
 app.Run();

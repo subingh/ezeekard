@@ -1,0 +1,15 @@
+E:\Dev\New folder\ezeekard\EzeeKard.Data\bin\Debug\net8.0\EzeeKards.Data.deps.json
+E:\Dev\New folder\ezeekard\EzeeKard.Data\bin\Debug\net8.0\EzeeKards.Data.runtimeconfig.json
+E:\Dev\New folder\ezeekard\EzeeKard.Data\bin\Debug\net8.0\EzeeKards.Data.dll
+E:\Dev\New folder\ezeekard\EzeeKard.Data\bin\Debug\net8.0\EzeeKards.Data.pdb
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\EzeeKards.Data.csproj.AssemblyReference.cache
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\EzeeKards.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\EzeeKards.Data.AssemblyInfoInputs.cache
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\EzeeKards.Data.AssemblyInfo.cs
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\EzeeKards.Data.csproj.CoreCompileInputs.cache
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\EzeeKards.Data.sourcelink.json
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\EzeeKards.Data.dll
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\refint\EzeeKards.Data.dll
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\EzeeKards.Data.pdb
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\EzeeKards.Data.genruntimeconfig.cache
+E:\Dev\New folder\ezeekard\EzeeKard.Data\obj\Debug\net8.0\ref\EzeeKards.Data.dll

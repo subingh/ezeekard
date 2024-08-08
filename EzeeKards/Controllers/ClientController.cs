@@ -1,10 +1,8 @@
-﻿using EzeeKard.Models;
-using EzeeKards.Data;
-using EzeeKards.Dtos.Client;
-using EzeeKards.Dtos;
-using EzeeKards.Mappers;
+﻿using EzeeKard.Service.Implementations;
+using EzeeKards.Data.Entities.Domain;
+using EzeeKards.Service.Models.Users;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Net;
 
 namespace EzeeKards.Controllers
 {
@@ -12,214 +10,125 @@ namespace EzeeKards.Controllers
     [Route("api/[controller]")]
     public class ClientController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        //Defining a private field for a service
+        private readonly IClientService _clientService;
 
-        public ClientController(ApplicationDbContext context)
+        //constructor to access the private field in the class
+        public ClientController(IClientService clientService)
         {
-            _context = context;
+            _clientService = clientService;
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetClient(Guid id)
+        /// <summary>
+        /// Create Client
+        /// </summary>
+        /// <param name="clientRequest"></param>
+        /// <returns></returns>
+        [HttpPost("Create")]
+        public async Task<IActionResult> CreateClientAsync([FromForm]ClientRequest clientRequest)
         {
-            var client = await _context.Client
-                .Include(c => c.Companies)
-                .Include(c => c.ExtraInfos)
-                .FirstOrDefaultAsync(c => c.Id == id);
-
-            if (client == null)
+            if (!ModelState.IsValid)
             {
-                return NotFound();
+                return BadRequest(ModelState);
             }
-
-            var clientDto = new ClientDto
+            try
             {
-                Id = client.Id,
-                ClientName = client.ClientName,
-                ImageUrl = client.ImageUrl,
-                Companies = client.Companies.Select(c => new CompanyDto
+                var result = await _clientService.CreateClientAsync(clientRequest);
+
+                if (result.Exception != null)
                 {
-                    Id = c.Id,
-                    ClientId = c.ClientId,
-                    CompanyName = c.CompanyName,
-                    CompanyLogo = c.CompanyLogo,
-                    ExtraInfos = c.ExtraInfos.Select(e => new ExtraInfoDto
-                    {
-                        Id = e.Id,
-                        ClientId = e.ClientId,
-                        CompanyId = e.CompanyId,
-                        Designation = e.Designation,
-                        Country = e.Country,
-                        State = e.State,
-                        City = e.City,
-                        Street = e.Street,
-                        MapUrl = e.MapUrl,
-                        PhoneNumber = e.PhoneNumber,
-                        Email = e.Email,
-                        Website = e.Website,
-                        Description = e.Description,
-                        SocialMedias = e.SocialMedias
-                    }).ToList()
-                }).ToList(),
-                ExtraInfos = client.ExtraInfos.Select(e => new ExtraInfoDto
-                {
-                    Id = e.Id,
-                    ClientId = e.ClientId,
-                    CompanyId = e.CompanyId,
-                    Designation = e.Designation,
-                    Country = e.Country,
-                    State = e.State,
-                    City = e.City,
-                    Street = e.Street,
-                    MapUrl = e.MapUrl,
-                    PhoneNumber = e.PhoneNumber,
-                    Email = e.Email,
-                    Website = e.Website,
-                    Description = e.Description,
-                    SocialMedias = e.SocialMedias
-                }).ToList()
-            };
-
-            return Ok(clientDto);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> CreateClient([FromBody] ClientDto clientDto)
-        {
-            var client = new Client
-            {
-                Id = clientDto.Id,
-                ClientName = clientDto.ClientName,
-                ImageUrl = clientDto.ImageUrl,
-                Companies = clientDto.Companies.Select(c => new Company
-                {
-                    Id = c.Id,
-                    ClientId = c.ClientId,
-                    CompanyName = c.CompanyName,
-                    CompanyLogo = c.CompanyLogo,
-                    ExtraInfos = c.ExtraInfos.Select(e => new ExtraInfo
-                    {
-                        Id = e.Id,
-                        ClientId = e.ClientId,
-                        CompanyId = e.CompanyId,
-                        Designation = e.Designation,
-                        Country = e.Country,
-                        State = e.State,
-                        City = e.City,
-                        Street = e.Street,
-                        MapUrl = e.MapUrl,
-                        PhoneNumber = e.PhoneNumber,
-                        Email = e.Email,
-                        Website = e.Website,
-                        Description = e.Description,
-                        SocialMedias = e.SocialMedias
-                    }).ToList()
-                }).ToList(),
- 
-            };
-
-            _context.Client.Add(client);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetClient), new { id = client.Id }, clientDto);
-        }
-
-
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateClient(Guid id, [FromBody] ClientDto clientDto)
-        {
-            if (id != clientDto.Id)
-            {
-                return BadRequest();
-            }
-
-            var client = await _context.Client
-                .Include(c => c.Companies)
-                .Include(c => c.ExtraInfos)
-                .FirstOrDefaultAsync(c => c.Id == id);
-
-            if (client == null)
-            {
-                return NotFound();
-            }
-
-            client.ClientName = clientDto.ClientName;
-            client.ImageUrl = clientDto.ImageUrl;
-
-            // Update related companies
-            foreach (var companyDto in clientDto.Companies)
-            {
-                var company = client.Companies.FirstOrDefault(c => c.Id == companyDto.Id);
-                if (company != null)
-                {
-                    company.CompanyName = companyDto.CompanyName;
-                    company.CompanyLogo = companyDto.CompanyLogo;
-
-                    // Update related extra infos
-                    foreach (var extraInfoDto in companyDto.ExtraInfos)
-                    {
-                        var extraInfo = company.ExtraInfos.FirstOrDefault(e => e.Id == extraInfoDto.Id);
-                        if (extraInfo != null)
-                        {
-                            extraInfo.Designation = extraInfoDto.Designation;
-                            extraInfo.Country = extraInfoDto.Country;
-                            extraInfo.State = extraInfoDto.State;
-                            extraInfo.City = extraInfoDto.City;
-                            extraInfo.Street = extraInfoDto.Street;
-                            extraInfo.MapUrl = extraInfoDto.MapUrl;
-                            extraInfo.PhoneNumber = extraInfoDto.PhoneNumber;
-                            extraInfo.Email = extraInfoDto.Email;
-                            extraInfo.Website = extraInfoDto.Website;
-                            extraInfo.Description = extraInfoDto.Description;
-                            extraInfo.SocialMedias = extraInfoDto.SocialMedias;
-                        }
-                    }
+                    return StatusCode((int)result.Status, result.Exception.Message);
                 }
-            }
 
-            // Update related extra infos not connected to companies
-            foreach (var extraInfoDto in clientDto.ExtraInfos.Where(e => e.CompanyId == Guid.Empty))
+                return Ok(result.Result);
+            }
+            catch (Exception ex)
             {
-                var extraInfo = client.ExtraInfos.FirstOrDefault(e => e.Id == extraInfoDto.Id);
-                if (extraInfo != null)
-                {
-                    extraInfo.Designation = extraInfoDto.Designation;
-                    extraInfo.Country = extraInfoDto.Country;
-                    extraInfo.State = extraInfoDto.State;
-                    extraInfo.City = extraInfoDto.City;
-                    extraInfo.Street = extraInfoDto.Street;
-                    extraInfo.MapUrl = extraInfoDto.MapUrl;
-                    extraInfo.PhoneNumber = extraInfoDto.PhoneNumber;
-                    extraInfo.Email = extraInfoDto.Email;
-                    extraInfo.Website = extraInfoDto.Website;
-                    extraInfo.Description = extraInfoDto.Description;
-                    extraInfo.SocialMedias = extraInfoDto.SocialMedias;
-                }
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
             }
-
-            _context.Entry(client).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-
-            return NoContent();
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteClient(Guid id)
-        {
-            var client = await _context.Client
-                .Include(c => c.Companies)
-                .Include(c => c.ExtraInfos)
-                .FirstOrDefaultAsync(c => c.Id == id);
 
-            if (client == null)
+        /// <summary>
+        /// Update Client Details
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <param name="clientRequest"></param>
+        /// <returns></returns>
+        [HttpPut("update")]
+        public async Task<IActionResult> UpdateClient(Guid Id, [FromForm] ClientRequest clientRequest)
+        {
+            if (!ModelState.IsValid)
             {
-                return NotFound();
+                return BadRequest(ModelState);
             }
 
-            _context.Client.Remove(client);
-            await _context.SaveChangesAsync();
+            try
+            {
+                var result = await _clientService.UpdateClientAsync(Id, clientRequest);
 
-            return NoContent();
+                if (result.Status != HttpStatusCode.OK)
+                {
+                    return StatusCode((int)result.Status, result.Exception?.Message);
+                }
+                return Ok(result.Result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+            }
+        }
+
+
+        /// <summary>
+        /// Soft delete the client
+        /// </summary>
+        /// <param name="clientId"></param>
+        /// <returns></returns>
+        [HttpDelete("Delete")]
+        public async Task<IActionResult> DeleteClientAsync(Guid clientId)
+        {
+            var result = await _clientService.DeleteClientAsync(clientId);
+
+            if (result.Status == HttpStatusCode.NotFound)
+            {
+                return NotFound(result.Exception?.Message);
+            }
+            return Ok(result.Result);
+        }
+
+        /// <summary>
+        /// Gell all available clients
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("Getall")]
+        public async Task<IActionResult> GetAllAsync()
+        {
+            var result = await _clientService.GetAllAsync();
+
+            if (result.Status == HttpStatusCode.NotFound)
+            {
+                return NotFound(result.Exception?.Message);
+            }
+
+            return Ok(result.Result);
+        }
+
+        /// <summary>
+        /// Get client using get by id
+        /// </summary>
+        /// <param name="clientId"></param>
+        /// <returns></returns>
+        [HttpGet("GetbyId")]
+        public async Task<IActionResult> GetByIdAsync(Guid clientId)
+        {
+            var result = await _clientService.GetByIdAsync(clientId);
+
+            if (result.Status == HttpStatusCode.NotFound)
+            {
+                return NotFound(result.Exception?.Message);
+            }
+            return Ok(result.Result);
         }
     }
 }

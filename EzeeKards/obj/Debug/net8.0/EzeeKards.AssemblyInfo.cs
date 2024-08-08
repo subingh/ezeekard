@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EzeeKards")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54dfd7d47d22250cd606cd833f044eb35c57d148")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ed63bf2fbfd1257f36ccea5a6f4bd6d23b54309")]
 [assembly: System.Reflection.AssemblyProductAttribute("EzeeKards")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EzeeKards")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
