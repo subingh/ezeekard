@@ -27,6 +27,10 @@ namespace EzeeKards.Service.Converter
                 CompanyId = entity.CompanyId,
                 CompanyName = entity.CompanyName,
                 CompanyLogo = entity.CompanyLogo,
+                CreatedBy = entity.CreatedBy,
+                CreatedDate = entity.CreatedDate,
+                UpdatedBy = entity.UpdatedBy,
+                UpdatedDate = entity.UpdatedDate
             };
         }
 

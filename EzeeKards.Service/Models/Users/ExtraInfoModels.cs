@@ -19,13 +19,9 @@ namespace EzeeKards.Service.Models.Users
         public string Email { get; set; }
         public string SocialMedias { get; set; }
         public string Description { get; set; }
-        public string CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public string UpdatedBy { get; set; }
-        public DateTime? UpdatedDate { get; set; }
     }
 
-    public class ExtraInfoCompanyResponse
+    public class ExtraInfoCompanyResponse: Base
     {
         public Guid CompanyId { get; set; }
         public Guid ExtraInfoId { get; set; }
@@ -40,10 +36,6 @@ namespace EzeeKards.Service.Models.Users
         public string Email { get; set; }
         public string SocialMedias { get; set; }
         public string Description { get; set; }
-        public string CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public string UpdatedBy { get; set; }
-        public DateTime? UpdatedDate { get; set; }
     }
 
 
@@ -56,16 +48,11 @@ namespace EzeeKards.Service.Models.Users
         public string CMapUrl { get; set; }
         public string CPhoneNumber { get; set; }
         public string CEmail { get; set; }
-        public string CWebsite {  get; set; }
+        public string CWebsite { get; set; }
         public string CDescription { get; set; }
         public string CSocialMedias { get; set; }
-        public string CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public string UpdatedBy { get; set; }
-        public DateTime? UpdatedDate { get; set; }
     }
-
-    public class ExtraInfoClientResponse
+    public class ExtraInfoClientResponse: Base
     {
         public Guid ClientId { get; set; }
         public Guid ExtraInfoId { get; set; }
@@ -79,13 +66,5 @@ namespace EzeeKards.Service.Models.Users
         public string CEmail { get; set; }
         public string CDescription { get; set; }
         public string CSocialMedias { get; set; }
-        public string CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public string UpdatedBy { get; set; }
-        public DateTime? UpdatedDate { get; set; }
     }
-
-
-    
-
 }

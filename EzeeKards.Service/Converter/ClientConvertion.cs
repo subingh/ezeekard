@@ -31,7 +31,12 @@ namespace EzeeKard.Service.Converters
             {   
                 ClientId = client.ClientId,
                 ClientName = client.ClientName,
-                Image = client.ImageUrl
+                Image = client.ImageUrl,
+                IsDeleted = client.IsDeleted,
+                CreatedBy = client.ClientName,
+                CreatedDate = client.CreatedDate,
+                UpdatedBy = client.UpdatedBy,
+                UpdatedDate = client.UpdatedDate
             };
         }
 

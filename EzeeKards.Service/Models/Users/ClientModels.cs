@@ -12,29 +12,15 @@ namespace EzeeKards.Service.Models.Users
 {
     public class ClientRequest
     {
-        public string ClientName { get; set; }
-        public IFormFile Image { get; set; }
+        public string? ClientName { get; set; }
+        public IFormFile? Image { get; set; }
 
     }
-    public class ClientResponse
+    public class ClientResponse: Base
     {
         public Guid ClientId { get; set; }
         public string ClientName { get; set; }
         public string Image { get; set; }
-        public string CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public string UpdatedBy { get; set; }
-        public DateTime? UpdatedDate { get; set; }
     }
 
-    public class FileRequest
-    {
-        public Guid ClientId { set; get; }
-        public IEnumerable<string> ClientImage { get; set; }
-    }
-
-    public class FileResponse
-    {
-        public string ClientImage {  get; set; }
-    }
 }

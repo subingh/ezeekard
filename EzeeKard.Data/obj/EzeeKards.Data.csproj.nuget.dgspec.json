@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {}
+    "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {}
   },
   "projects": {
-    "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {
+    "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj",
+        "projectUniqueName": "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj",
         "projectName": "EzeeKards.Data",
-        "projectPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj",
+        "projectPath": "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\obj\\",
+        "outputPath": "E:\\Dev\\ezeekard\\EzeeKard.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,19 +45,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[9.0.0-preview.5.24306.3, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

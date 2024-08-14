@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EzeeKards.Service.Models.Users
 {
-    public class ClientDetails: Base
+    public class ClientDetails
     {
         // ignore null values
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.Ignore)]

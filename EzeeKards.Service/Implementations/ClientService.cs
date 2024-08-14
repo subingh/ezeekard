@@ -114,11 +114,14 @@ namespace EzeeKard.Service.Implementations
                     }
 
                     // Set the ImageUrl property to the relative path
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
                     clientData.ImageUrl = $"/images/{fileName}";
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
                 }
-
+                //convert DTOs data into domain's model
+#pragma warning disable CS8604 // Possible null reference argument.
                 _converter.ToDomain(clientData, request);
-
+#pragma warning restore CS8604 // Possible null reference argument.
                 _dbContext.Update(clientData);
                 var result = await _dbContext.SaveChangesAsync();
                 if (result <= 0)
@@ -127,7 +130,6 @@ namespace EzeeKard.Service.Implementations
                     operation.Status = HttpStatusCode.NotFound;
                     return operation;
                 }
-
                 operation.Result = _converter.ToModel(clientData);
                 operation.Status = HttpStatusCode.OK;
 

@@ -14,3 +14,19 @@ E:\Dev\New folder\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.dl
 E:\Dev\New folder\ezeekard\EzeeKards.Common\obj\Debug\net8.0\refint\EzeeKards.Common.dll
 E:\Dev\New folder\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.pdb
 E:\Dev\New folder\ezeekard\EzeeKards.Common\obj\Debug\net8.0\ref\EzeeKards.Common.dll
+E:\Dev\ezeekard\EzeeKards.Common\bin\Debug\net8.0\EzeeKards.Common.deps.json
+E:\Dev\ezeekard\EzeeKards.Common\bin\Debug\net8.0\EzeeKards.Common.dll
+E:\Dev\ezeekard\EzeeKards.Common\bin\Debug\net8.0\EzeeKards.Common.pdb
+E:\Dev\ezeekard\EzeeKards.Common\bin\Debug\net8.0\EzeeKards.Data.dll
+E:\Dev\ezeekard\EzeeKards.Common\bin\Debug\net8.0\EzeeKards.Data.pdb
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.csproj.AssemblyReference.cache
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.AssemblyInfoInputs.cache
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.AssemblyInfo.cs
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.csproj.CoreCompileInputs.cache
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.sourcelink.json
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKard.1CEFB509.Up2Date
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.dll
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\refint\EzeeKards.Common.dll
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\EzeeKards.Common.pdb
+E:\Dev\ezeekard\EzeeKards.Common\obj\Debug\net8.0\ref\EzeeKards.Common.dll

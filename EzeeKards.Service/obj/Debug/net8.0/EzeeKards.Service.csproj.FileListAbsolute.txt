@@ -16,3 +16,12 @@ E:\Dev\New folder\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.
 E:\Dev\New folder\ezeekard\EzeeKards.Service\obj\Debug\net8.0\refint\EzeeKards.Service.dll
 E:\Dev\New folder\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.pdb
 E:\Dev\New folder\ezeekard\EzeeKards.Service\obj\Debug\net8.0\ref\EzeeKards.Service.dll
+E:\Dev\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.dll
+E:\Dev\ezeekard\EzeeKards.Service\obj\Debug\net8.0\refint\EzeeKards.Service.dll
+E:\Dev\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.pdb
+E:\Dev\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.csproj.AssemblyReference.cache
+E:\Dev\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dev\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.AssemblyInfoInputs.cache
+E:\Dev\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.AssemblyInfo.cs
+E:\Dev\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.csproj.CoreCompileInputs.cache
+E:\Dev\ezeekard\EzeeKards.Service\obj\Debug\net8.0\EzeeKards.Service.sourcelink.json

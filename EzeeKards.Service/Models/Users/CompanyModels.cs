@@ -14,16 +14,12 @@ namespace EzeeKards.Service.Models.Users
         public IFormFile CompanyLogo { get; set; }
         
     }
-    public class CompanyResponse
+    public class CompanyResponse: Base
     {
         public Guid ClientId { get; set; }
         public Guid CompanyId { get; set; }
         public string CompanyName { get; set; }
         public string CompanyLogo { get; set; }
-        public string CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public string UpdatedBy { get; set; }
-        public DateTime? UpdatedDate { get; set; }
     }
 
   
