@@ -8,6 +8,10 @@ using EzeeKards.Service.Implementation;
 using EzeeKards.Service.Implementations;
 using EzeeKards.Service.Interfaces;
 using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using EzeeKard.Common.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
@@ -32,6 +36,7 @@ builder.Services.AddScoped<IClientExtraInfoService, ClientExtraInfoService>();
 builder.Services.AddScoped<ICompanyExtraInfoService, CompanyExtraInfoService>();
 builder.Services.AddScoped<IClientExtraInfoService, ClientExtraInfoService>();
 builder.Services.AddScoped<IClientInformationService, ClientInformationService>();
+builder.Services.AddScoped<IAdminService, AdminService>();
 
 // Add services to the container
 builder.Services.AddControllers()
@@ -39,7 +44,19 @@ builder.Services.AddControllers()
     {
         options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
     });
-
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var app = builder.Build();
@@ -52,9 +69,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthorization();
-app.MapControllers();
 app.UseStaticFiles();
 app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.UseMiddleware<ClaimsMiddleWare>();
+app.MapControllers();
+
 
 app.Run();

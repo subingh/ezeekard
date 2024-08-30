@@ -46,10 +46,10 @@ namespace EzeeKards.Data.Database
         public DbSet<CompanyExtraInfo> CompanyExtraInfo { get; set; }
 
         /// <summary>
-        /// DbSet files for AllClientDetails
+        /// DbSet files for Admin
         /// To fetch data from all tables
         /// </summary>
-        public DbSet<AllClientDetails> AllClientDetails { get; set; }
+        public DbSet<Admin> Admin { get; set; }
 
         /// <summary>
         /// Database creation and SQL connection
@@ -77,10 +77,23 @@ namespace EzeeKards.Data.Database
                 .HasForeignKey(e => e.CompanyId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<Admin>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.FirstName).IsRequired().HasMaxLength(50);
+                entity.Property(e => e.LastName).IsRequired().HasMaxLength(50);
+                entity.Property(e => e.Email).IsRequired().HasMaxLength(50);
+                entity.Property(e => e.AdminName).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.Password).IsRequired().HasMaxLength(100);
+            });
+
             modelBuilder.Entity<Client>(entity =>
             {
                 entity.HasKey(e => e.ClientId);
-                entity.Property(e => e.ClientName).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.FirstName).IsRequired().HasMaxLength(50);
+                entity.Property(e => e.LastName).IsRequired().HasMaxLength(50);
+                entity.Property(e => e.UserName).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.Password).IsRequired().HasMaxLength(100);
             });
 
             modelBuilder.Entity<Company>(entity =>
@@ -132,7 +145,18 @@ namespace EzeeKards.Data.Database
                 new SocialMedia { Id = 4, SocialMediaName = "Whatsapp", LogoUrl = "" },
                 new SocialMedia { Id = 5, SocialMediaName = "Twitter", LogoUrl = "" },
                 new SocialMedia { Id = 6, SocialMediaName = "LinkedIn", LogoUrl = "" }
-                );
+            );
+            modelBuilder.Entity<Admin>().HasData(
+                new Admin 
+                { 
+                    Id = 1, 
+                    FirstName = "Subindra",
+                    LastName = "Ghatuwal",
+                    AdminName = "Surabin",
+                    Email = "sghatuwal14@gmail.com",
+                    Password = "Subingh9@"
+                }
+           );
         }
     }
 }

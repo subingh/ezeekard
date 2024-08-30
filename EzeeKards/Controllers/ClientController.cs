@@ -1,6 +1,7 @@
 ﻿using EzeeKard.Service.Implementations;
 using EzeeKards.Data.Entities.Domain;
 using EzeeKards.Service.Models.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -56,6 +57,7 @@ namespace EzeeKards.Controllers
         /// <param name="clientRequest"></param>
         /// <returns></returns>
         [HttpPut("update")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateClient(Guid Id, [FromForm] ClientRequest clientRequest)
         {
             if (!ModelState.IsValid)
@@ -86,6 +88,7 @@ namespace EzeeKards.Controllers
         /// <param name="clientId"></param>
         /// <returns></returns>
         [HttpDelete("Delete")]
+        [Authorize]
         public async Task<IActionResult> DeleteClientAsync(Guid clientId)
         {
             var result = await _clientService.DeleteClientAsync(clientId);
@@ -102,6 +105,7 @@ namespace EzeeKards.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("Getall")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllAsync()
         {
             var result = await _clientService.GetAllAsync();
@@ -120,6 +124,7 @@ namespace EzeeKards.Controllers
         /// <param name="clientId"></param>
         /// <returns></returns>
         [HttpGet("GetbyId")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetByIdAsync(Guid clientId)
         {
             var result = await _clientService.GetByIdAsync(clientId);

@@ -16,8 +16,11 @@ namespace EzeeKard.Service.Converters
 
             return new Client
             {   
-                ClientName = clientRequest.ClientName,
-                ImageUrl = $"Images/{clientRequest.ClientName}"
+                FirstName = clientRequest.FirstName,
+                LastName = clientRequest.LastName,
+                UserName = clientRequest.UserName,
+                Password = clientRequest.Password,
+                ImageUrl = $"Images/{clientRequest.UserName}"
             };
         }
 
@@ -30,10 +33,13 @@ namespace EzeeKard.Service.Converters
             return new ClientResponse
             {   
                 ClientId = client.ClientId,
-                ClientName = client.ClientName,
+                FirstName = client.FirstName,
+                LastName = client.LastName,
+                UserName = client.UserName,
+                Password = client.Password,
                 Image = client.ImageUrl,
                 IsDeleted = client.IsDeleted,
-                CreatedBy = client.ClientName,
+                CreatedBy = client.UserName,
                 CreatedDate = client.CreatedDate,
                 UpdatedBy = client.UpdatedBy,
                 UpdatedDate = client.UpdatedDate
@@ -42,7 +48,10 @@ namespace EzeeKard.Service.Converters
 
         public void ToDomain(Client client, ClientRequest request) 
         {
-            client.ClientName = request.ClientName;
+            client.UserName = request.UserName;
+            client.FirstName = request.FirstName;
+            client.LastName = request.LastName;
+            client.Password = request.Password;
         }
     }
 }

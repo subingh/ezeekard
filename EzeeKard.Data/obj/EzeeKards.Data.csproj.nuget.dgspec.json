@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {}
+    "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {}
   },
   "projects": {
-    "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {
+    "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj",
+        "projectUniqueName": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj",
         "projectName": "EzeeKards.Data",
-        "projectPath": "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj",
+        "projectPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Dev\\ezeekard\\EzeeKard.Data\\obj\\",
+        "outputPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0-preview.5.24306.3, )"
+              "version": "[8.0.8, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

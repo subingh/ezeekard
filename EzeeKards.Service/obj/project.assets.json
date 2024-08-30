@@ -1091,6 +1091,7 @@
           "EzeeKards.Data": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
@@ -3032,11 +3033,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Dev\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
+      "projectUniqueName": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
       "projectName": "EzeeKards.Service",
-      "projectPath": "E:\\Dev\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
+      "projectPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\Dev\\ezeekard\\EzeeKards.Service\\obj\\",
+      "outputPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3053,11 +3054,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {
-              "projectPath": "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj"
+            "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {
+              "projectPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj"
             },
-            "E:\\Dev\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj": {
-              "projectPath": "E:\\Dev\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj"
+            "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj": {
+              "projectPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj"
             }
           }
         }

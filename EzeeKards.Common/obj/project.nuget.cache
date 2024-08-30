@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aXwuXoOFM67jNqFHeF49nywjhjc+W30jLpcqE1c/9b1sP0b7E7PmgIIAO3ikscBKt2bJr20ug0BLe2XrO19vLw==",
+  "dgSpecHash": "c3T794n6X4PvUe3BXmSGsaC+SeesuKXaRmV5dlq/9KmQRMX0LIIlRUyIkTSslHLbwFch0Yx7zOdK6L6vRpqf5w==",
   "success": true,
-  "projectFilePath": "E:\\Dev\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj",
+  "projectFilePath": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

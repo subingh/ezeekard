@@ -2,6 +2,7 @@
 using EzeeKards.Data.Entities.Domain;
 using EzeeKards.Service.Interfaces;
 using EzeeKards.Service.Models.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -9,6 +10,7 @@ namespace EzeeKards.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(Roles = "Admin")]
     public class ClientInformationController : ControllerBase
     {
         private readonly IClientInformationService _clientInformationService;

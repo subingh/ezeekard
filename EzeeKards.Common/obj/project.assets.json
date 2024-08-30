@@ -2999,6 +2999,7 @@
       "EzeeKards.Data >= 1.0.0",
       "Microsoft.AspNetCore.Http.Features >= 5.0.17",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 8.0.8",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -3008,11 +3009,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Dev\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj",
+      "projectUniqueName": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj",
       "projectName": "EzeeKards.Common",
-      "projectPath": "E:\\Dev\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj",
+      "projectPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Common\\EzeeKards.Common.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "E:\\Dev\\ezeekard\\EzeeKards.Common\\obj\\",
+      "outputPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3029,8 +3030,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {
-              "projectPath": "E:\\Dev\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj"
+            "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj": {
+              "projectPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\EzeeKards.Data.csproj"
             }
           }
         }
@@ -3055,6 +3056,10 @@
             "version": "[5.0.17, )"
           },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+            "target": "Package",
+            "version": "[8.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.8, )"
           },

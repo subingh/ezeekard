@@ -1,5 +1,6 @@
 ﻿using EzeeKards.Service.Interfaces;
 using EzeeKards.Service.Models.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -35,6 +36,7 @@ namespace EzeeKards.Controllers
             }
         }
         [HttpPut("Update/Company/ExtraInfo")]
+        [Authorize]
         public async Task<IActionResult> UpdateCompanyExtraInfoAsync(Guid Id, [FromForm] ExtraInfoCompanyRequest request)
         {
             if (!ModelState.IsValid)
@@ -58,6 +60,7 @@ namespace EzeeKards.Controllers
         }
 
         [HttpDelete("Delete/Company/ExtraInfo")]
+        [Authorize]
         public async Task<IActionResult> DeleteExtraInfoAsync([FromForm] Guid extraInfoId)
         {
             var result = await _companyExtraInfoService.DeleteExtraInfoAsync(extraInfoId);
@@ -70,6 +73,7 @@ namespace EzeeKards.Controllers
         }
 
         [HttpGet("GetAll/Companys/ExtraInfos")]
+        [Authorize]
         public async Task<IActionResult> GetAllAsync()
         {
             var result = await _companyExtraInfoService.GetAllAsync();
@@ -83,6 +87,7 @@ namespace EzeeKards.Controllers
 
 
         [HttpGet("GetById/Company/ExtraInfo")]
+        [Authorize]
         public async Task<IActionResult> GetByIdAsync(Guid extraInfoId)
         {
             var result = await _companyExtraInfoService.GetByIdAsync(extraInfoId);

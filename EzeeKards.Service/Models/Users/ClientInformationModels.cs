@@ -12,7 +12,9 @@ namespace EzeeKards.Service.Models.Users
         // ignore null values
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.Ignore)]
         public Guid ClientId { get; set; }
-        public string ClientName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
         public string ImageURl { get; set; }
         public string? CWebsite { get; set; }
         public string? CCountry { get; set; }

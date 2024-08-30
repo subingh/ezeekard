@@ -1,11 +1,13 @@
 ﻿using EzeeKards.Service.Implementations;
 using EzeeKards.Service.Interfaces;
 using EzeeKards.Service.Models.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
 namespace EzeeKards.Controllers
 {
+    
     public class ClientExtraInfoController : Controller
     {
 
@@ -49,6 +51,7 @@ namespace EzeeKards.Controllers
         /// <param name="request"></param>
         /// <returns></returns>
         [HttpPut("Update/Client/ExtraInfo")]
+        [Authorize]
         public async Task<IActionResult> UpdateClientExtraInfoAsync(Guid Id, [FromForm] ExtraInfoClientRequest request)
         {
             if (!ModelState.IsValid)
@@ -77,6 +80,7 @@ namespace EzeeKards.Controllers
         /// <param name="extraInfoId"></param>
         /// <returns></returns>
         [HttpDelete("Delete/Client/ExtraInfo")]
+        [Authorize]
         public async Task<IActionResult> DeleteExtraInfoAsync([FromForm] Guid extraInfoId)
         {
             var result = await _clientExtraInfoService.DeleteExtraInfoAsync(extraInfoId);
@@ -93,6 +97,7 @@ namespace EzeeKards.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("GetAll/Clients/ExtraInfos")]
+        [Authorize]
         public async Task<IActionResult> GetAllAsync()
         {
             var result = await _clientExtraInfoService.GetAllAsync();
@@ -110,6 +115,7 @@ namespace EzeeKards.Controllers
         /// <param name="extraInfoId"></param>
         /// <returns></returns>
         [HttpGet("GetById/Client/ExtraInfo")]
+        [Authorize]
         public async Task<IActionResult> GetByIdAsync(Guid extraInfoId)
         {
             var result = await _clientExtraInfoService.GetByIdAsync(extraInfoId);

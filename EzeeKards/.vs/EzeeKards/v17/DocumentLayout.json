@@ -1,21 +1,93 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Dev\\ezeekard\\EzeeKards\\",
+  "WorkspaceRootPath": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\ezeekard\\ezeekards\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards\\controllers\\clientinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:controllers\\clientinformationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards\\controllers\\clientextrainfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:controllers\\clientextrainfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\implementations\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards\\controllers\\companyextrainfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:controllers\\companyextrainfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\converter\\clientinformationconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\models\\users\\clientinformationmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3776E9-EA63-41DF-B639-3ABCD07D4AC0}|..\\EzeeKard.Data\\EzeeKards.Data.csproj|e:\\dev\\new folder\\ezeekard\\ezeekard.data\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3776E9-EA63-41DF-B639-3ABCD07D4AC0}|..\\EzeeKard.Data\\EzeeKards.Data.csproj|e:\\dev\\new folder\\ezeekard\\ezeekard.data\\entities\\domain\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\models\\users\\clientmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\converter\\clientconvertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\implementations\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3776E9-EA63-41DF-B639-3ABCD07D4AC0}|..\\EzeeKard.Data\\EzeeKards.Data.csproj|e:\\dev\\new folder\\ezeekard\\ezeekard.data\\entities\\domain\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\ezeekard\\ezeekards.service\\ezeekards.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\ezeekard\\ezeekards\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\models\\users\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\interfaces\\iclientextrainfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536D76D2-795F-45B7-9123-32B94DE69EB6}|..\\EzeeKards.Service\\EzeeKards.Service.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards.service\\implementations\\clientextrainfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\new folder\\ezeekard\\ezeekards\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|e:\\dev\\ezeekard\\ezeekards\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D18A7FFE-49C3-4637-8611-05ADF07AC5BD}|EzeeKards.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Dev\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC3776E9-EA63-41DF-B639-3ABCD07D4AC0}|..\\EzeeKard.Data\\EzeeKards.Data.csproj|e:\\dev\\new folder\\ezeekard\\ezeekard.data\\migrations\\20240823072539_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,54 +109,336 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompanyExtraInfoController.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\CompanyExtraInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompanyExtraInfoController.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\CompanyExtraInfoController.cs",
+              "RelativeToolTip": "Controllers\\CompanyExtraInfoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T07:36:14.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompanyController.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "Controllers\\CompanyController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAwFYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T07:35:48.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientInformationController.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\ClientInformationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientInformationController.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\ClientInformationController.cs",
+              "RelativeToolTip": "Controllers\\ClientInformationController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T07:35:32.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:16:52.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Implementations\\AdminService.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Implementations\\AdminService.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Implementations\\AdminService.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Implementations\\AdminService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAACCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:07:34.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "Controllers\\ClientController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAA6wGAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:37:42.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientExtraInfoController.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\ClientExtraInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientExtraInfoController.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Controllers\\ClientExtraInfoController.cs",
+              "RelativeToolTip": "Controllers\\ClientExtraInfoController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAwHUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:38:41.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Dev\\ezeekard\\EzeeKards\\Program.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Dev\\ezeekard\\EzeeKards\\Program.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAjwA0AAAAAAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAwEoAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T06:34:12.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EzeeKards.Service",
-              "DocumentMoniker": "E:\\Dev\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
-              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\EzeeKards.Service.csproj",
-              "ToolTip": "E:\\Dev\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
-              "RelativeToolTip": "..\\EzeeKards.Service\\EzeeKards.Service.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-14T06:31:07.767Z",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKard.Data\\Database\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\EzeeKard.Data\\Database\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAlwFQAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T05:41:25.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
+              "Title": "Client.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\Entities\\Domain\\Client.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKard.Data\\Entities\\Domain\\Client.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\Entities\\Domain\\Client.cs",
+              "RelativeToolTip": "..\\EzeeKard.Data\\Entities\\Domain\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T07:05:37.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientModels.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Models\\Users\\ClientModels.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Models\\Users\\ClientModels.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Models\\Users\\ClientModels.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Models\\Users\\ClientModels.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wBgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T07:08:34.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientInformationConverter.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Converter\\ClientInformationConverter.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Converter\\ClientInformationConverter.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Converter\\ClientInformationConverter.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Converter\\ClientInformationConverter.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAawF8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T07:23:56.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20240823072539_Initial.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\Migrations\\20240823072539_Initial.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKard.Data\\Migrations\\20240823072539_Initial.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\Migrations\\20240823072539_Initial.cs",
+              "RelativeToolTip": "..\\EzeeKard.Data\\Migrations\\20240823072539_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T07:25:39.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientInformationModels.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Models\\Users\\ClientInformationModels.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Models\\Users\\ClientInformationModels.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Models\\Users\\ClientInformationModels.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Models\\Users\\ClientInformationModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T07:24:25.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\Entities\\Domain\\Admin.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKard.Data\\Entities\\Domain\\Admin.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKard.Data\\Entities\\Domain\\Admin.cs",
+              "RelativeToolTip": "..\\EzeeKard.Data\\Entities\\Domain\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T05:37:28.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Implementations\\ClientService.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Implementations\\ClientService.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Implementations\\ClientService.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Implementations\\ClientService.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAwEwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:15:52.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClientConvertion.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Converter\\ClientConvertion.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Converter\\ClientConvertion.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Converter\\ClientConvertion.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Converter\\ClientConvertion.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:15:52.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Models\\Users\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Models\\Users\\LoginRequest.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Models\\Users\\LoginRequest.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Models\\Users\\LoginRequest.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAwwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:05:37.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Interfaces\\IAdminService.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Interfaces\\IAdminService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABBwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:08:51.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Interfaces\\IClientService.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Interfaces\\IClientService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAwAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:14:14.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ViewState": "AQIAADYAAAAAAAAAAAAYwEAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-08-23T06:19:33.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IClientExtraInfoService.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Interfaces\\IClientExtraInfoService.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Interfaces\\IClientExtraInfoService.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Interfaces\\IClientExtraInfoService.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Interfaces\\IClientExtraInfoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:09:55.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClientExtraInfoService.cs",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Implementations\\ClientExtraInfoService.cs",
+              "RelativeDocumentMoniker": "..\\EzeeKards.Service\\Implementations\\ClientExtraInfoService.cs",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards.Service\\Implementations\\ClientExtraInfoService.cs",
+              "RelativeToolTip": "..\\EzeeKards.Service\\Implementations\\ClientExtraInfoService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T06:44:16.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T06:29:25.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EzeeKards.Service.csproj",
+              "DocumentMoniker": "E:\\Dev\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
+              "ToolTip": "E:\\Dev\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
+              "RelativeToolTip": "..\\..\\..\\ezeekard\\EzeeKards.Service\\EzeeKards.Service.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-14T06:31:07.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "E:\\Dev\\ezeekard\\EzeeKards\\appsettings.Development.json",
+              "DocumentMoniker": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "E:\\Dev\\ezeekard\\EzeeKards\\appsettings.Development.json",
+              "ToolTip": "E:\\Dev\\New folder\\ezeekard\\EzeeKards\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-12T06:29:29.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\Dev\\ezeekard\\EzeeKards\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\Dev\\ezeekard\\EzeeKards\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-12T06:29:25.905Z",
               "EditorCaption": ""
             }
           ]

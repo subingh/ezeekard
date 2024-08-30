@@ -17,12 +17,12 @@ namespace EzeeKards.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.0-preview.5.24306.3")
+                .HasAnnotation("ProductVersion", "8.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("EzeeKards.Data.Entities.Domain.AllClientDetails", b =>
+            modelBuilder.Entity("EzeeKards.Data.Entities.Domain.Admin", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -30,29 +30,45 @@ namespace EzeeKards.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<Guid>("ClientExtraInfoId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("AdminName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<Guid>("ClientId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
-                    b.Property<Guid>("CompanyExtraInfoId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
-                    b.Property<Guid>("CompanyId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ClientExtraInfoId");
+                    b.ToTable("Admin");
 
-                    b.HasIndex("ClientId");
-
-                    b.HasIndex("CompanyExtraInfoId");
-
-                    b.HasIndex("CompanyId");
-
-                    b.ToTable("AllClientDetails");
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AdminName = "Surabin",
+                            Email = "sghatuwal14@gmail.com",
+                            FirstName = "Subindra",
+                            LastName = "Ghatuwal",
+                            Password = "Subingh9@"
+                        });
                 });
 
             modelBuilder.Entity("EzeeKards.Data.Entities.Domain.Client", b =>
@@ -61,17 +77,17 @@ namespace EzeeKards.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("ClientName")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
                     b.Property<string>("CreatedBy")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("ImageUrl")
                         .IsRequired()
@@ -80,11 +96,26 @@ namespace EzeeKards.Data.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
                     b.Property<string>("UpdatedBy")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("ClientId");
 
@@ -329,97 +360,62 @@ namespace EzeeKards.Data.Migrations
                         {
                             Id = 1,
                             CreatedBy = "",
-                            CreatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 311, DateTimeKind.Local).AddTicks(7460),
+                            CreatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3093),
                             IsDeleted = false,
                             LogoUrl = "",
                             SocialMediaName = "Facebook",
-                            UpdatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(8318)
+                            UpdatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3103)
                         },
                         new
                         {
                             Id = 2,
                             CreatedBy = "",
-                            CreatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9515),
+                            CreatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3108),
                             IsDeleted = false,
                             LogoUrl = "",
                             SocialMediaName = "Instagram",
-                            UpdatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9518)
+                            UpdatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3109)
                         },
                         new
                         {
                             Id = 3,
                             CreatedBy = "",
-                            CreatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9521),
+                            CreatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3110),
                             IsDeleted = false,
                             LogoUrl = "",
                             SocialMediaName = "Viber",
-                            UpdatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9521)
+                            UpdatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3110)
                         },
                         new
                         {
                             Id = 4,
                             CreatedBy = "",
-                            CreatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9522),
+                            CreatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3111),
                             IsDeleted = false,
                             LogoUrl = "",
                             SocialMediaName = "Whatsapp",
-                            UpdatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9523)
+                            UpdatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3112)
                         },
                         new
                         {
                             Id = 5,
                             CreatedBy = "",
-                            CreatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9524),
+                            CreatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3113),
                             IsDeleted = false,
                             LogoUrl = "",
                             SocialMediaName = "Twitter",
-                            UpdatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9524)
+                            UpdatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3113)
                         },
                         new
                         {
                             Id = 6,
                             CreatedBy = "",
-                            CreatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9525),
+                            CreatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3114),
                             IsDeleted = false,
                             LogoUrl = "",
                             SocialMediaName = "LinkedIn",
-                            UpdatedDate = new DateTime(2024, 8, 5, 17, 17, 57, 312, DateTimeKind.Local).AddTicks(9525)
+                            UpdatedDate = new DateTime(2024, 8, 23, 13, 10, 38, 486, DateTimeKind.Local).AddTicks(3115)
                         });
-                });
-
-            modelBuilder.Entity("EzeeKards.Data.Entities.Domain.AllClientDetails", b =>
-                {
-                    b.HasOne("EzeeKards.Data.Entities.Domain.ClientExtraInfo", "ClientExtraInfo")
-                        .WithMany()
-                        .HasForeignKey("ClientExtraInfoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EzeeKards.Data.Entities.Domain.Client", "Client")
-                        .WithMany()
-                        .HasForeignKey("ClientId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EzeeKards.Data.Entities.Domain.CompanyExtraInfo", "CompanyExtraInfo")
-                        .WithMany()
-                        .HasForeignKey("CompanyExtraInfoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EzeeKards.Data.Entities.Domain.Company", "Company")
-                        .WithMany()
-                        .HasForeignKey("CompanyId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Client");
-
-                    b.Navigation("ClientExtraInfo");
-
-                    b.Navigation("Company");
-
-                    b.Navigation("CompanyExtraInfo");
                 });
 
             modelBuilder.Entity("EzeeKards.Data.Entities.Domain.ClientExtraInfo", b =>

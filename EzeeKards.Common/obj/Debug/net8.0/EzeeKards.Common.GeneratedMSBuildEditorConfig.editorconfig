@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EzeeKards.Common
-build_property.ProjectDir = E:\Dev\ezeekard\EzeeKards.Common\
+build_property.ProjectDir = E:\Dev\New folder\ezeekard\EzeeKards.Common\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

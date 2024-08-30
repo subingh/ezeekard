@@ -5,7 +5,10 @@ namespace EzeeKards.Data.Entities.Domain
     public class Client : Base
     {
         public Guid ClientId { get; set; }
-        public string ClientName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string UserName {  get; set; }
+        public string Password { get; set; }
         public string ImageUrl { get; set; }
 
         // Navigation properties

@@ -20,7 +20,8 @@ namespace EzeeKards.Service.Converter
                 var clientDetails = new ClientDetails
                 {
                     ClientId = client.ClientId,
-                    ClientName = client.ClientName,
+                    FirstName = client.FirstName,
+                    LastName = client.LastName,
                     ImageURl = client.ImageUrl
                 };
                 clientDetailsList.Add(clientDetails);
@@ -91,7 +92,8 @@ namespace EzeeKards.Service.Converter
             var clientDetails = new ClientDetails
             {
                 ClientId = client.ClientId,
-                ClientName = client.ClientName,
+                FirstName = client.FirstName,
+                LastName = client.LastName,
                 ImageURl = client.ImageUrl
             };
             clientDetailsList.Add(clientDetails);
